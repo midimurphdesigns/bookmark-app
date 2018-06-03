@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: block;
+  width: 50%;
+  margin: 50px auto;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input, .btn, textarea {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.title {
+  font-weight: heavy;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.page-title {
+  font-weight: heavy;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.new-bookmark-button-box, .default-rating-box {
+  padding: 15px;
+}
+
+.default-page, .expanded-page, .add-bookmark-page {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.item {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}
+
+.btn2 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+#new-title, #new-url, .edit-title, .edit-url {
+  width: 100%;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.bookmark-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expanded-content {
+  width: 125%;
+  display: block;
+}
+
+.edit-desc {
+  width: 100%;
+}
+
+.default-top {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 90%
+}
+
+.add-bookmark-top {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.expanded-top {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.checked {
+  color: orange;
+}
+
+.default-rating-label, .default-rating-content {
+  display: block;
+}
+
+.bookmark-url-desc-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 50%
+}
+
+.cancel {
+  display: flex;
+}
+
+.bookmark-title, .stars {
+  padding: 10px;
+}
+
+.bookmark-title {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text-area {
+  width: 100%;
+  height: 100px;
+}
+
+.description {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.padding-3px {
+  padding: 3px;
+}
+
+.add-title-url-description-box, .add-stars-button-box {
+  width: 80%;
+  display: block;
+}
+
+.add-bookmark-button-box, .stars-box {
+  display: flex;
+
+}
+
+.add-bookmark-top {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.expanded-bookmark {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.expand-btn:hover, .btn:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px;
+}
+
+.hidden {
+  display: none;
+}
+
+#new-title, #new-url, #new-desc {
+  padding-top: 5px;
+}
